@@ -1,0 +1,219 @@
+body{
+    font-family: 'Century Gothic', Calibri, serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+header{
+    height: 100px;
+
+}
+
+footer{
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: lightgrey;
+    border-top: 2px solid grey;
+}
+
+nav{
+    width: 100%;
+    background-color: #696969;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu-ind:hover, .presentation{
+    border-top: 5px solid green;
+    background-color: rgba(64, 200, 130, 0.15);
+    margin-bottom: 0px;
+}
+
+.menu-exp:hover, .parcours{
+    border-top: 5px solid yellow;
+    background-color: rgba(241, 211, 79, 0.15);
+    margin-bottom: 0px;
+}
+
+.menu-con:hover, .competences{
+    border-top: 5px solid red;
+    background-color: rgba(228, 77, 38, 0.15);
+    margin-bottom: 0px;
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+section{
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sec{
+    margin: 0px 10%;
+}
+
+.left, .leftphoto{
+    float: left;
+    width: 30%;
+}
+
+.right{
+    float: left;
+    width: 70%;
+}
+
+.cleft, .cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;
+}
+
+.sec::after, .exp::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rouge{
+    border-top: 5px solid red;
+    background-color: rgba(228, 77, 38, 0.15);
+    margin-bottom: 0px;
+    text-align:center;
+}
+
+
+.photo{
+    width: 60%;
+    height: 60%;
+}
+
+.CVcentre{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconeCV{
+    width: 100%;
+}
+
+.iconeMail{
+    width: 25%;
+}
+
+.vert{
+    border-top: 5px solid green;
+    background-color: rgba(64, 200, 130, 0.15);
+    margin-bottom: 0px;
+}
+
+.jaune{
+    border-top: 5px solid yellow;
+    background-color: rgba(241, 211, 79, 0.15);
+    margin-bottom: 0px;
+}
+
+.leftexp{
+    width: 45%;
+    float: left;
+}
+
+.rightexp{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+
+.leftexp img{
+    width: 100%;
+    max-width: 400px;
+}
+
+@media screen and (max-width:780px) {
+    header{
+        height: 50px;
+    }
+
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+
+    .leftphoto{
+        float: none;
+        width: 100%;
+    }
+
+    .CVcentre{
+        width: 60%;
+    }
+
+    .iconeMail{
+        width: 60%;
+    }
+
+    .leftexp{
+        width: 70%;
+        float: none;
+        padding-top: 30px;
+    }
+
+/*Revoir cette partie du code*/
+
+    .cleft{
+        margin: 0% 0% 0% 0%;
+    }
+
+    .cright{
+        margin: 0px 0px 0px 1px;
+    }
+
+    .sousright{
+        margin: 0% 0% 0% 130%;
+        transform: translate(0px,-73px);
+    }
+/*----------------------------------*/   
+}
