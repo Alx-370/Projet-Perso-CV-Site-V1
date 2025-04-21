@@ -3,6 +3,7 @@
 
 <p>Suite à ma première formation en ligne de développeur web et web mobile, j'ai eu à faire un petit site web CV pour mettre en pratique mes connaissances acquises</p>
 
+<p>ouvrir en premier le fichier Index.html</p>
 
 
 ## 🛠️Compérences :
