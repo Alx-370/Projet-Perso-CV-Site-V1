@@ -10,8 +10,6 @@ Dans le cadre de ma première formation en ligne de développeur web et web mobi
 
   -Mes compétences techniques,
 
-  -Mes premiers projets,
-
   -Mes coordonnées pour me contacter facilement.
 
 </p>
