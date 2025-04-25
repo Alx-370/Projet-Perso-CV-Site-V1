@@ -1,8 +1,21 @@
 # Projet Site CV Version 1.0
 <img src= "imgSiteCV1.png" width="150"/>
 
-<p>Suite à ma première formation en ligne de développeur web et web mobile, j'ai eu à faire un petit site web CV pour mettre en pratique mes connaissances acquises</p>
+<p>Projet : Mon site CV – Développeur Web & Web Mobile
+Dans le cadre de ma première formation en ligne de développeur web et web mobile, j’ai réalisé un site web CV pour mettre en pratique les compétences acquises au fil des modules. Ce projet m’a permis de consolider mes bases en HTML et CSS, tout en travaillant sur un contenu concret et utile.<br><br>
 
+  Le site présente :
+
+  -Mon parcours de formation,
+
+  -Mes compétences techniques,
+
+  -Mes premiers projets,
+
+  -Mes coordonnées pour me contacter facilement.
+
+</p>
+<br>
 <p>Ouvrir en premier le fichier Index.html</p>
 
 
